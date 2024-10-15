@@ -7,6 +7,8 @@
 
 TG-Awesome-Blog is a VitePress-powered blog [website](http://www.yooll.ltd/).
 
+You can share your life, share your skill, share your idea or anything you want to share.
+
 ## Documentation
 
 Step1.
