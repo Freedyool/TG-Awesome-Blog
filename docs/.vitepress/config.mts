@@ -18,6 +18,14 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+        text: '嵌入式开发',
+        items: [
+          { text: '基础外设', link: '/embedded/peripheral/index' },
+          { text: '通信协议', link: '/embedded/protocal/index' }
+        ]
+
       }
     ],
 
