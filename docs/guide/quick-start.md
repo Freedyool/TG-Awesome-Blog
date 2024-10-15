@@ -24,7 +24,7 @@
 
 1. clone 代码到你的本地 然后安装一个 node 环境 然后执行 npm ci 然后执行 npm run docs:dev
 2. 如果你使用 github.dev 你就可以在 github codespaces 完成上面的过程（推荐）
-3. 之后你就可以在命令中直接 Ctrl+左键 访问到 http://localhost:5173/ 来检查你的效果
+3. 之后你就可以在命令中直接 Ctrl+左键 访问到 `http://localhost:5173/` 来检查你的效果
 
 ## 参考
 
