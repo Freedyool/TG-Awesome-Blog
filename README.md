@@ -9,7 +9,25 @@ TG-Awesome-Blog is a VitePress-powered blog [website](http://www.yooll.ltd/).
 
 ## Documentation
 
-Please give me a `PR` to add your blog to the blog site.
+Step1.
+
+Send me an email to let me know you want to join us.
+
+Step2.
+
+Visit [Github Dev]https://github.dev/Freedyool/TG-Awesome-Blog/ to edit our project.
+
+Step3.
+
+Push your commit to main branch, it will trig deploy by Github Actions.
+
+Step4.
+
+Visit the [website](http://www.yooll.ltd/) to check your update after a few minutes.
+
+e.g.
+
+You can also give me a `PR` to add your blog to our blog site.
 
 ## Changelog
 
