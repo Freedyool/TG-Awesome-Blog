@@ -33,7 +33,8 @@ You can also give me a `PR` to add your blog to our blog site.
 
 ## Changelog
 
-TODO
+2024/10/24 Two blog styles are derived from this commit, the `main` branch will contain flat blog records without categories while the `cat` branch do have predefined categories for blogs to place.
+
 
 ## Contribution
 
