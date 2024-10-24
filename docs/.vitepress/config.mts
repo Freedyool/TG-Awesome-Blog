@@ -12,44 +12,9 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: '指南',
-        base: '/guide/',
-        items: [
-          {text: '快速开始', link: 'quick-start/'}
-        ]
-      },
-      {
-        text: '牛马',
-        items: [
-          {
-            text: '嵌入式开发',
-            base: '/embedded/',
-            link: '/',
-            items: [
-              { text: '基础外设', link: 'peripheral/' },
-              { text: '通信协议', link: 'protocal/' },
-            ]
-          },
-          { text: 'WEB开发', link: '/web/' },
-          { text: '电子电路', link: '/electronic/' }
-        ]
-      },
-      {
-        text: '泼猴',
-        items: [
-          { text: '旅行', link: '/traveling/' },
-          { text: '厨艺', link: '/cooking/' },
-          { text: '摄影', link: '/photography/' }
-        ]
-      },
-      {
-        text: '小西天',
-        items: [
-          { text: '搞钱', link: '/business/' },
-          { text: '瞎搞', link: '/misc/' }
-        ]
-      }
+      {text: '快速开始', link: 'guide/quick-start/'},
+      {text: 'api 样例', link: 'api-examples'},
+      {text: 'markdown 样例', link: 'markdown-examples'},
     ],
 
     socialLinks: [
