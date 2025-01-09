@@ -38,7 +38,7 @@ jobs:
           npm ci
           npm run docs:build
 
-      # Deply it
+      # Deploy it
       - name: ssh-scp-deploy
         uses: marcodallasanta/ssh-scp-deploy@v1.2.0
         with:
@@ -52,5 +52,22 @@ jobs:
           user: ${{ secrets.REMOTE_USERNAME }}
           #远程服务器的密钥（与密码二者选其一）
           password: ${{ secrets.REMOTE_PASSWORD }}
+          #上传后执行的脚本
+          post_upload: sudo nginx -s reload
+
+      # Deploy it on AliYun
+      - name: ssh-scp-deploy
+        uses: marcodallasanta/ssh-scp-deploy@v1.2.0
+        with:
+          #本地打包后的文件目录
+          local: docs/.vitepress/dist
+          #上传至远程服务器的目标目录
+          remote: /var/www/blog
+          #远程服务器的地址
+          host: ${{ secrets.REMOTE_HOST_ALIYUN }}
+          #远程服务器的用户名
+          user: ${{ secrets.REMOTE_USERNAME_ALIYUN }}
+          #远程服务器的密钥（与密码二者选其一）
+          password: ${{ secrets.REMOTE_PASSWORD_ALIYUN }}
           #上传后执行的脚本
           post_upload: sudo nginx -s reload

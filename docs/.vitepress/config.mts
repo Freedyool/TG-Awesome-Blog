@@ -19,6 +19,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Freedyool/TG-Awesome-Blog' }
-    ]
+    ],
+
+    footer: {
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2021007807号-1</a>',
+      copyright: 'Copyright © 2019-present Freed Yool'
+    }
   }
 })
