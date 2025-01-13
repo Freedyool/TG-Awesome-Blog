@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "TG Awesome Blog"
-  text: "Tech Sharing Place power by VitePress"
-  tagline: My great project tagline
+  name: "Advanced PPK"
+  text: "Exploring advance usage for Nordic Power Profiler Kits."
+  tagline: All about ambitious attempts. 
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: SHOW ME MORE
+      link: /advanced-ppk/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: VISIT TG AWESOME BLOG
+      link: /contents
 
 features:
   - title: Feature A

@@ -12,9 +12,23 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {text: '快速开始', link: 'guide/quick-start/'},
-      {text: 'api 样例', link: 'api-examples'},
-      {text: 'markdown 样例', link: 'markdown-examples'},
+      {
+        text: 'Adv-PPK',
+        base: '/advanced-ppk',
+        link: '/index',
+        items: [
+          {text: 'About', link: '/about'}
+        ]
+      },
+      {
+        text: '建站指南',
+        base: '/guide',
+        link: '/quick-start',
+        items: [
+          {text: 'api 样例', link: '/api-examples'},
+          {text: 'markdown 样例', link: '/markdown-examples'}
+        ]
+      },
     ],
 
     socialLinks: [
