@@ -36,6 +36,7 @@ export default defineConfig({
       '/project/': [
         {
           text: '项目列表',
+          base: '/project',
           link: '/index',
           items: [
             {

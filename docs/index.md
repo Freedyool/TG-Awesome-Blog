@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: "了解更多"
-      link: advanced-ppk/index
+      link: project/advanced-ppk/index
     - theme: alt
       text: "访问 TG-BLOG"
-      link: contents
+      link: blog/index
 
 features:
   - title: 特性 1
