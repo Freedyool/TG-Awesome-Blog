@@ -29,7 +29,8 @@ export default defineConfig({
           link: '/index',
           items: [
             { text: '快速开始', link: '/quick-start' },
-            { text: '部署 ssl 证书', link: '/ssl-cert' }
+            { text: '部署 ssl 证书', link: '/ssl-cert' },
+            { text: '搭建免费图床系统', link: '/image-host'}
           ]
         },
       ],

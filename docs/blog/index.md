@@ -5,3 +5,4 @@
 ## 2025年 1月
 
 - D15：[ssl 证书相关](../guide/ssl-cert.html)
+- D18：[图床搭建相关](../guide/image-host.md)
