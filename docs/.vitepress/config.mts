@@ -45,7 +45,8 @@ export default defineConfig({
               base: '/project/advanced-ppk',
               link: '/index',
               items: [
-                { text: 'About', link: '/about' }
+                { text: '开发环境搭建', link: '/source-code-0'},
+                { text: 'About', link: '/about' },
               ]
             }
           ]
