@@ -46,7 +46,16 @@ export default defineConfig({
               link: '/index',
               items: [
                 { text: '开发环境搭建', link: '/source-code-0'},
+                { text: '项目架构分析', link: '/source-code-1'},
                 { text: 'About', link: '/about' },
+              ]
+            },
+            {
+              text: 'C4-Model-Zh',
+              base: '/project/c4-model',
+              link: '/index',
+              items: [
+                { text: '开始', link: '/start' },
               ]
             }
           ]
