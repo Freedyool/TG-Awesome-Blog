@@ -1,4 +1,4 @@
-# 开始
+# 从切换文档引擎开始
 
 ## 文档引擎
 
@@ -21,7 +21,11 @@
 5、逐页面向 `config.mts` 中添加文档并通过（可能出现的）报错信息修改原文档文件，通常，你需要：
 
 - 注释掉文档开头的 `frontmatter`，因为 `Jekyll` 和 `VitePress` 的 `frontmatter` 不兼容；
-- 如果原始文档中有 `script` 标签，请注释整个标签块（包括**引用标签**）；
-- 一个文件特例：`Diagrams/19-example.md` 文件，不知道为啥一直 `404`，暂且跳过此页面；
+- 如果原始文档中有 `script` 标签，请注释整个标签块（包括**引用标签**），然后使用 vitepress 支持的方式来实现原有的功能；
+- 一个文件特例：`Diagrams/19-example.md` 文件，不知道为啥一直 `404`，暂且跳过此页面，后续知道是因为doc中引用了无法访问的 localhost 链接导致的，具体涉及到 vitepress 中的 ignoreDeadlink 属性；
+- 处理所有无法访问的链接（jekyll的路径映射与vitepress并不兼容，jekyll支持使用frontmatter定义的别名进行路由跳转，而vitepress的处理与之不同）；
+- 处理所有的图片引用，可以直接访问原有网站的图片链接，也可以自己重新上传这些图片；
 
-6、。。。
+6、按需加入 github action 来部署你的文档
+
+上述完整过程参见 https://github.com/Freedyool/c4model-cn 中的提交；

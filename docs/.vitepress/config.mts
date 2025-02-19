@@ -59,7 +59,8 @@ export default defineConfig({
               base: '/project/c4-model',
               link: '/index',
               items: [
-                { text: '开始', link: '/start' },
+                { text: '切换文档引擎', link: '/start' },
+                { text: '文档翻译校对', link: '/trans'},
               ]
             }
           ]
