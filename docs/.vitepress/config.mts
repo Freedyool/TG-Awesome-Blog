@@ -34,6 +34,7 @@ export default defineConfig({
                 { text: '我的书单', link: '/index'}
               ]
             },
+            { text: '使用 structurizr 绘制 c4 model', link: '/structurizr'}
           ]
         }
       ],
