@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: '博客', link: '/blog/index', activeMatch: '/blog/' },
       { text: '项目', link: '/project/index', activeMatch: '/project/' },
-      { text: '关于', link: '/guide/index', activeMatch: '/guide/' }
+      { text: '关于', link: '/about/index', activeMatch: '/about/' }
     ],
 
     sidebar: {
@@ -19,20 +19,23 @@ export default defineConfig({
           base: '/blog',
           link: '/index',
           items: [
+            {
+              text: '网站搭建',
+              base: '/blog/guide',
+              items: [
+                { text: '部署 ssl 证书', link: '/ssl-cert' },
+                { text: '搭建免费图床系统', link: '/image-host'}
+              ]
+            },
+            {
+              text: '读书笔记',
+              base: '/blog/book',
+              items: [
+                { text: '我的书单', link: '/index'}
+              ]
+            },
           ]
         }
-      ],
-      '/guide/': [
-        {
-          text: '建站指南',
-          base: '/guide',
-          link: '/index',
-          items: [
-            { text: '快速开始', link: '/quick-start' },
-            { text: '部署 ssl 证书', link: '/ssl-cert' },
-            { text: '搭建免费图床系统', link: '/image-host'}
-          ]
-        },
       ],
       '/project/': [
         {
@@ -58,6 +61,17 @@ export default defineConfig({
                 { text: '开始', link: '/start' },
               ]
             }
+          ]
+        }
+      ],
+      '/about/': [
+        {
+          base: '/about',
+          items: [
+            { text: 'ME', link: '/index' },
+            { text: '加入我们', link: '/quick-start' },
+            { text: 'API样例', link: '/api-examples' },
+            { text: 'Markdown样例', link: '/markdown-examples' },
           ]
         }
       ]
