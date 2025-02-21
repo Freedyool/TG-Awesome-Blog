@@ -4,7 +4,7 @@
 
 目前市面上有众多的文档引擎，C4-model 的官方文档使用 [Jekyll]([欢迎 - Jekyll • 简单静态博客网站生成器](https://jekyllcn.com/docs/home/)) 构建，在国内似乎不如 `Hexo`、`WorldPress` 和 `VuePress` 那么具有影响力（如果你需要一些简单介绍，请参考：[七大热门博客框架对比-CSDN博客](https://blog.csdn.net/weixin_42365530/article/details/107840934)）；
 
-这里我基于汉化效率的考虑，选择了 [VitePress | 由 Vite 和 Vue 驱动的静态站点生成器](https://vitepress.dev/zh/) 作为文档搭建的引擎，并且会将汉化的文档暂时部署在私有域名下，它会从 `Github` 仓库上自动推送到文档网站上以供便捷访问，当然你也可以在本地，或者 `Github` [codespaces](https://docs.github.com/en/codespaces) 中预览，具体请参考 [快速开始](../../guide/quick-start.html)。
+这里我基于汉化效率的考虑，选择了 [VitePress | 由 Vite 和 Vue 驱动的静态站点生成器](https://vitepress.dev/zh/) 作为文档搭建的引擎，并且会将汉化的文档暂时部署在私有域名下，它会从 `Github` 仓库上自动推送到文档网站上以供便捷访问，当然你也可以在本地，或者 `Github` [codespaces](https://docs.github.com/en/codespaces) 中预览，具体请参考 [快速开始](../../about/quick-start)。
 
 ### 从 Jekyll 迁移到 VitePress
 
