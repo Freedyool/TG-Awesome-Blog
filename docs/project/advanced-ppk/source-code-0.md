@@ -1,4 +1,4 @@
-# pc-nrfconnect-ppk 源码解析——开发环境搭建
+# pc-nrfconnect-ppk 源码解析——开发环境
 
 pc-nrfconnect-ppk 是由 NordicSemiconductor 维护的开源软件，服务于 Nordic 旗下的一款用于嵌入式解决方案功耗分析和优化的开发工具 [Power Profiler Kit II](https://www.nordicsemi.cn/tools/ppk2/)，完整源码可从 [pc-nrfconnect-ppk](https://github.com/NordicSemiconductor/pc-nrfconnect-ppk) 获取；
 

@@ -51,6 +51,7 @@ export default defineConfig({
               items: [
                 { text: '开发环境搭建', link: '/source-code-0'},
                 { text: '项目架构分析', link: '/source-code-1'},
+                { text: 'PPK2功能概述', link: '/source-code-2' },
                 { text: 'About', link: '/about' },
               ]
             },
