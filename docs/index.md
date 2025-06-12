@@ -3,22 +3,25 @@
 layout: home
 
 hero:
-  name: "Advanced PPK"
-  text: "探索 Nordic Power Profiler Kits 高阶应用"
-  tagline: "十分激进、十分炫酷、十分实用"
+  name: "FreedYool"
+  text: "硬件 × 软件 × 未来"
+  tagline: "探索技术边界，创造无限可能"
   actions:
     - theme: brand
-      text: "了解更多"
-      link: project/advanced-ppk/index
+      text: "关于我"
+      link: about/index
     - theme: alt
-      text: "访问 TG-BLOG"
+      text: "技术博客"
       link: blog/index
 
 features:
-  - title: 特性 1
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 特性 2
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 特性 3
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 嵌入式工程师
+    details: "物联网芯片原厂 - 专注于低功耗系统开发和芯片验证"
+    icon: 🔌
+  - title: 全栈开发者
+    details: "AI 赋能 - 软硬件协同设计 - 大前端开发"
+    icon: 🌐
+  - title: 在读研究生
+    details: 华东师范大学 - 电子与通信工程学院 - 非全日制
+    icon: 🎓
 ---

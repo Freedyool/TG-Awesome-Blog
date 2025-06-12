@@ -3,22 +3,32 @@
 layout: home
 
 hero:
-  name: "Advanced PPK"
-  text: "Exploring advance usage for Nordic Power Profiler Kits."
-  tagline: All about ambitious attempts. 
+  name: "FreedYool"
+  text: "Silicon to Software"
+  tagline: "Where embedded precision meets intelligent futures"
   actions:
     - theme: brand
-      text: SHOW ME MORE
-      link: /advanced-ppk/index
+      text: "My Journey"
+      link: about/index
     - theme: alt
-      text: VISIT TG AWESOME BLOG
-      link: /contents
+      text: "Tech Insights"
+      link: blog/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Embedded Systems Engineer
+    details: "Low-power architect at IoT silicon vendor<br>
+    Silicon validation & energy-optimized SDK development"
+    # 关键升级：用architect替代engineer，silicon validation专业术语，energy-optimized替代直译low-power
+    icon: 🔌
+  - title: Full-Stack Innovator  # 替代Developer
+    details: "AI-enhanced solutions<br/>
+    Hardware/software co-design<br/>
+    Modern frontend development"
+    # 关键升级：用abstraction layers(抽象层)技术隐喻替代"协同设计"
+    icon: 🌐
+  - title: Research Engineer  # 替代在读研究生
+    details: "East China Normal University<br/>
+    School of Electronic & Communication Engineering<br/>
+    Part-time candidate"
+    icon: 🎓
 ---
