@@ -1,19 +1,10 @@
 # Advanced-PPK
 
-这里是 Advanced-PPK 的入口页面，欢迎查看我们的源码解析。
+探索 Nordic Power Profiler Kits 高阶应用
 
-D19：[pc-nrfconnect-ppk 源码解析——开发环境搭建](source-code-0.html)
+Overview
 
-此外，我们会在这里对已经有所尝试/规划中的功能进行投票，快来支持你最喜爱的/最期待的新功能吧！
-
-页面待优化（投票）
-
-- 支持第三方硬件采集的电流数据，可以是STM32开发板、也可以是INA219电流采集模组；
-
-- 支持第三方硬件采集的逻辑分析数据；
-
-- 支持对逻辑分析仪结果进行解析（based on sigrok）；
-
-- 在一个窗口里直接对比多个测量源的电流数据（先2个吧）；
-
-- 支持与 wireshark 的软件联动（同步测量/一键定位）；
+- 支持多个 Power Profiler Kit (PPK) 同时连接
+- 支持第三方硬件电流数据采集
+- 逻辑分析功能增强插件
+- Wireshark 集成
