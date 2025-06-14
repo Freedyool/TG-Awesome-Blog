@@ -1,12 +1,3 @@
-# 目录
+# VitePress 搭建博客系统指南
 
-从这里开始浏览TG的博客；
-
-## 2025年 1月
-
-- D15：[ssl 证书相关](guide/ssl-cert)
-- D18：[图床搭建相关](guide/image-host)
-
-## 2025年 2月
-
-- D19: [我的书单](book/index)
+感谢尤大大开源的 [VitePress](https://vitepress.dev/zh/) 博客框架，确实好用；

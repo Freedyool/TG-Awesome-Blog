@@ -2,80 +2,35 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "TG Awesome Blog",
-  description: "Tech Sharing Place power by VitePress",
+  title: "Yool's Blog",
+  description: "Glad to see you ~",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '博客', link: '/blog/index', activeMatch: '/blog/' },
-      { text: '项目', link: '/project/index', activeMatch: '/project/' },
-      { text: '关于', link: '/about/index', activeMatch: '/about/' }
+      { text: '我的博客', link: '/blog/index', activeMatch: '/blog/' },
+      { text: '开源项目',
+        items: [
+          { text: "Advanced-PPK", link: '/project/adv-ppk' },
+          { text: "c4-model-cn", link: '/project/c4-model' }
+        ],
+        activeMatch: '/project/',
+      },
+      { text: '关于我', link: '/about/index', activeMatch: '/about/' }
     ],
 
     sidebar: {
       '/blog/': [
         {
-          text: '博客目录',
-          base: '/blog',
-          link: '/index',
-          items: [
-            {
-              text: '网站搭建',
-              base: '/blog/guide',
-              items: [
-                { text: '部署 ssl 证书', link: '/ssl-cert' },
-                { text: '搭建免费图床系统', link: '/image-host'}
-              ]
-            },
-            {
-              text: '读书笔记',
-              base: '/blog/book',
-              items: [
-                { text: '我的书单', link: '/index'}
-              ]
-            },
-            { text: '使用 structurizr 绘制 c4 model', link: '/structurizr'}
-          ]
-        }
-      ],
-      '/project/': [
+          text: '图床搭建教程',
+          link: '/blog/image-host'
+        },
         {
-          text: '项目列表',
-          base: '/project',
-          link: '/index',
-          items: [
-            {
-              text: 'Adv-PPK',
-              base: '/project/advanced-ppk',
-              link: '/index',
-              items: [
-                { text: '开发环境搭建', link: '/source-code-0'},
-                { text: '项目架构分析', link: '/source-code-1'},
-                { text: 'PPK2功能概述', link: '/source-code-2' },
-                { text: 'About', link: '/about' },
-              ]
-            },
-            {
-              text: 'C4-Model-Zh',
-              base: '/project/c4-model',
-              link: '/index',
-              items: [
-                { text: '切换文档引擎', link: '/start' },
-                { text: '文档翻译校对', link: '/trans'},
-              ]
-            }
-          ]
-        }
-      ],
-      '/about/': [
+          text: 'SSL证书申请教程',
+          link: '/blog/ssl-cert'
+        },
         {
-          base: '/about',
-          items: [
-            { text: 'ME', link: '/index' },
-            { text: '加入我们', link: '/quick-start' },
-            { text: 'API样例', link: '/api-examples' },
-            { text: 'Markdown样例', link: '/markdown-examples' },
-          ]
+          text: '使用 structurizr 绘制 c4 model',
+          link: '/blog/structurizr'
         }
       ]
     },
