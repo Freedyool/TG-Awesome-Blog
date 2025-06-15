@@ -1,30 +1,28 @@
-# 从切换文档引擎开始
+# C4 模型官方文档汉化 - 助力中文社区掌握架构可视化
 
-## 文档引擎
+大家好！我很高兴向大家介绍我的开源项目：c4.yooll.ltd。
 
-目前市面上有众多的文档引擎，C4-model 的官方文档使用 [Jekyll]([欢迎 - Jekyll • 简单静态博客网站生成器](https://jekyllcn.com/docs/home/)) 构建，在国内似乎不如 `Hexo`、`WorldPress` 和 `VuePress` 那么具有影响力（如果你需要一些简单介绍，请参考：[七大热门博客框架对比-CSDN博客](https://blog.csdn.net/weixin_42365530/article/details/107840934)）；
+## 项目是什么？
+这是一个将 C4 模型 的官方文档（由 Simon Brown 创建）进行系统化中文翻译的项目。C4 模型是一套简洁而强大的软件架构图和文档编写方法，通过不同的抽象层级（系统上下文、容器、组件、代码）帮助团队清晰地描述和理解复杂系统。
 
-这里我基于汉化效率的考虑，选择了 [VitePress | 由 Vite 和 Vue 驱动的静态站点生成器](https://vitepress.dev/zh/) 作为文档搭建的引擎，并且会将汉化的文档暂时部署在私有域名下，它会从 `Github` 仓库上自动推送到文档网站上以供便捷访问，当然你也可以在本地，或者 `Github` [codespaces](https://docs.github.com/en/codespaces) 中预览。
-### 从 Jekyll 迁移到 VitePress
+## 为什么做这个？
+优秀的英文文档有时会成为非母语学习者的障碍。我发现中文社区对 C4 模型有浓厚兴趣，但缺乏一份完整、准确且易于获取的中文参考。本项目旨在：
 
-这一部分主要包括这几个步骤：
+为中文开发者、架构师、技术经理、学生等提供零语言门槛的学习资源。
 
-1、删除 `Jekyll` 相关的配置文件，包括 `.github/workflow` 中的自动化部署脚本，保留所有 `.md` 文件
+促进 C4 模型在中文技术团队中的普及和标准化应用。
 
-2、参照 [快速开始 | VitePress](https://vitepress.dev/zh/guide/getting-started) 进行项目初始化
+方便中文团队在内部沟通和文档编写中使用统一的中文术语。
 
-3、编辑 `.vitepress/config.mts`，参照英文原网站构建侧边栏目录
+## 当前状态：
+项目已完成 C4 模型官方文档 v1.0 版本（或具体版本号）的完整翻译，并部署在 https://c4.yooll.ltd 方便在线浏览。
 
-4、启动 `VitePress` 用于本地预览以及**检查编译**
+邀请你：
 
-5、逐页面向 `config.mts` 中添加文档并通过（可能出现的）报错信息修改原文档文件，通常，你需要：
+📖 立即访问 https://c4.yooll.ltd 阅读中文版文档！
 
-- 注释掉文档开头的 `frontmatter`，因为 `Jekyll` 和 `VitePress` 的 `frontmatter` 不兼容；
-- 如果原始文档中有 `script` 标签，请注释整个标签块（包括**引用标签**），然后使用 vitepress 支持的方式来实现原有的功能；
-- 一个文件特例：`Diagrams/19-example.md` 文件，不知道为啥一直 `404`，暂且跳过此页面，后续知道是因为doc中引用了无法访问的 localhost 链接导致的，具体涉及到 vitepress 中的 ignoreDeadlink 属性；
-- 处理所有无法访问的链接（jekyll的路径映射与vitepress并不兼容，jekyll支持使用frontmatter定义的别名进行路由跳转，而vitepress的处理与之不同）；
-- 处理所有的图片引用，可以直接访问原有网站的图片链接，也可以自己重新上传这些图片；
+⭐ 如果觉得有帮助，请在 GitHub/Gitee (附链接) 上 Star 支持项目！
 
-6、按需加入 github action 来部署你的文档
+💬 欢迎提出宝贵意见！发现错译、术语不当或有改进建议？请通过 Issue 或讨论区反馈。
 
-上述完整过程参见 https://github.com/Freedyool/c4model-cn 中的提交；
+🤝 欢迎贡献！如果你有兴趣参与翻译校对或后续更新，请参考贡献指南 (如果有的话)。

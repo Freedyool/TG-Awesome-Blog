@@ -21,12 +21,16 @@ export default defineConfig({
     sidebar: {
       '/blog/': [
         {
-          text: '图床搭建教程',
+          text: '免费图床搭建教程',
           link: '/blog/image-host'
         },
         {
           text: 'SSL证书申请教程',
           link: '/blog/ssl-cert'
+        },
+        {
+          text: 'Jekyll到VitePress迁移指南',
+          link: '/blog/doc_migrante'
         },
         {
           text: '使用 structurizr 绘制 c4 model',
